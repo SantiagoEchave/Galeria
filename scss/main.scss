@@ -1,0 +1,52 @@
+
+
+body{
+    background-color: #72bfb9;
+}
+ul {
+    margin: 0 auto;
+    list-style: none;
+    overflow: hidden;
+    max-width: 520px;
+    min-width: 200px;
+    padding: 0;
+    text-align: center;
+}
+li {
+    margin: 10px;
+    padding: 0;
+    display: inline-block;
+//    float: left;
+//    width: 40%;
+    
+}
+ul li a img {
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    box-shadow: 5px 5px 2px hsla(0, 0%, 0%, 0.56);
+}
+#lienzo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(23, 21, 21, 0.88);
+    top: 0;
+    left: 0;
+    z-index: 1; 
+    text-align: center;
+}
+#lienzo1 img {
+    width: 500px;
+    
+}
+#opcion {
+    margin: 0 0 100px 0;
+}
+#contenedor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 360px;
+}
